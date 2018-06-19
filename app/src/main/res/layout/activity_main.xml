@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/w4"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textHeading"
+        android:text="Student Information"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textHeading"
+        android:id="@+id/textName"
+        android:text="Name :"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@+id/textName"
+        android:layout_below="@+id/textHeading"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textName"
+        android:id="@+id/textLname"
+        android:text="Last Name :"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editLname"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@+id/textLname"
+        android:layout_below="@+id/editName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textLname"
+        android:textStyle="bold"
+        android:id="@+id/textBranch"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:text="Branch :"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editBranch"
+        android:layout_marginStart="5dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/textBranch"
+        android:layout_below="@+id/editLname"
+        />
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="168dp"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
+        android:text="View" />
+
+
+
+</RelativeLayout>
